@@ -1,0 +1,24 @@
+#rodape img {
+    margin-top: 50px;
+    width: 35px;
+}
+#rodape p {
+    margin-top: 50px;
+}
+#rodape {
+    text-align: center;
+    color: #8a8fa3;
+}
+
+.box-footer img {
+    margin: 5px;
+}
+
+#rodape span {
+    color: #ffa600;
+    font-weight: bold;
+}
+
+.rodape-escuro {
+    background-color: #252525;
+}

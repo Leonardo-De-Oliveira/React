@@ -1,0 +1,61 @@
+#card {
+    width: 25%;
+    height: 250px;
+    margin: 0;
+    line-height: 22px;
+    text-align: left;
+}
+#card p {
+    margin: 18px 0 18px 10px;
+}
+
+
+
+.card-modo-claro:hover {
+    border: 2px solid #feb633;
+}
+.card-modo-claro{
+    
+    border: 1px solid #8a8fa347;
+}
+.card-modo-claro h4 {
+    color: #ffa600;
+    line-height: 0;
+    margin-left: 10px;
+}
+
+
+
+
+.card-modo-escuro{
+    color: #9f9f9f;
+    border: 1px solid #ffffff0d;
+}
+
+
+.card-modo-escuro:hover {
+    border: 2px solid #feb633;
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+    
+    #card {
+        width: 90%;
+    }
+}
+
+@media (max-width: 375px) {
+    
+    #card {
+        width: 90%;
+        height: 300px;
+    }
+    #card h4{
+        font-size: 20px;
+        margin-left: 25px;
+        padding-top: 45px;
+    }
+    #card p {
+        margin: 32px 0 -15px 25px;
+    }
+}

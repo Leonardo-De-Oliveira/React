@@ -1,0 +1,80 @@
+.container-banner{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+}
+
+.box-banner {
+    width: 50%;
+    height: 450px;
+    color: #022144;
+    display: flex;
+    align-items: center;
+    background-color: #fafbfc;
+}
+.box-texto{
+    margin-left: 10px;
+}
+.box-texto p {
+    text-transform: uppercase;
+}
+
+#banner{
+    width: 50%;
+    height: 450px;
+    background-image: url('../../assets/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+.banner-claro {
+    background-color: #fff;
+}
+.banner-escuro {
+    background-color: #252525;
+}
+.box-texto h2 {
+    font-weight: 500;
+    font-size: 44px;
+}
+.box-texto span {
+    font-weight: 900;
+    font-size: 28px;
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+    #banner{
+        width: 0;
+    }
+    .box-banner {
+        width: 100%;
+        height: 550px;
+    }
+    .box-texto {
+        font-size: 28px;
+    }
+    .box-texto span {
+        font-weight: 900;
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 375px) {
+    #banner{
+        width: 0;
+    }
+    .box-banner {
+        width: 100%;
+        height: 550px;
+    }
+    .box-texto p {
+        font-size: 14px;
+        letter-spacing: 5px;
+    }
+    
+    .box-texto span {
+        font-weight: 900;
+        font-size: 48px;
+    }
+}
