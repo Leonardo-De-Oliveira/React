@@ -1,0 +1,39 @@
+header {
+    background-color: #f9db79;
+    width: 100%;
+    position: fixed;
+}
+
+.topo {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.topo img {
+    width: 50px;
+}
+
+.link {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+}
+
+@media (max-width: 425px) {
+    .topo {
+        flex-direction: column;
+        padding: 25px;
+    }
+    .topo img {
+        margin-bottom: 15px;
+    }
+    .link {
+        padding: 8px 20px;
+        border-top: 1px solid;
+    }
+}

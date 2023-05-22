@@ -1,0 +1,128 @@
+.banner {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/public/assets/banner-home.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #f9db79;
+}
+
+.box-banner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-banner h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 80px;
+    text-shadow: 3px 5px 2px #474747;
+}
+
+.container {
+    width: 100%;
+    height: 339px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box-imagem img {
+    width: 100%;
+    max-width: 512px;
+    height: 339px;
+}
+
+.container div {
+    width: 100%;
+    max-width: 512px;
+}
+
+.container h2, h5, p {
+    text-align: center;
+}
+
+.container h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container h5 {
+    font-style: italic;
+}
+
+.container p {
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;    
+}
+
+.box-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+@media (max-width: 425px) {
+    .box-banner h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+    .banner{
+        height: 140vh;
+    }
+    .container {
+        flex-wrap: wrap;
+        height: 670px;
+        margin: 0 0 20px 0;
+    }
+    .altera1 {
+        margin-top: 355px;
+    }
+    .altera2 {
+        margin-top: -620px;
+    }
+    .container p {
+        text-align: center;
+        font-weight: 100;
+        width: 200px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+
+    .banner {
+        height: 115vh;
+    }
+    .box-banner h1 {
+        font-size: 55px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .container {
+        flex-wrap: wrap;
+        height: 800px;
+    }
+    .box-imagem img {
+        max-width: 767px;
+        height: 60vh;
+    }
+    .container div {
+        width: 100%;
+        max-width: 768px;
+    }
+    .altera1 {
+        margin-top: 530px;
+    }
+    .altera2 {
+        margin-top: -700px;
+    }
+}
